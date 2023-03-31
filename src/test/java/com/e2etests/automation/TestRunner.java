@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/spec/features/authentification"},
-        tags = "@Authentifier",
+        features = {"src/spec/features/creationProposition"},
+        tags = "@Creation_Proposition_par_raison_sociale",
         glue = "",
         plugin = {"pretty", "json:target/reports_Courtage/cucumber_report.json"}
 )
